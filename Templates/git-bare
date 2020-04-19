@@ -1,0 +1,22 @@
+###############################################
+Jangan pakai command 'git', ganti pakai 'config'
+karena kita pakai git --bare, parent directory
+$HOME anakny ~/.dotfiles
+lebih jelas lihat file .zshrc
+###############################################
+
+###############################################
+"disable untracked file saat git status"
+config config --local status.showUntrackedFiles no
+###############################################
+"add this .zshrc"
+###############################################
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+###############################################
+
+###############################################
+ganti 'git' pakai 'config'
+###############################################
+git add <file>
+git commit -m <"message">
+git push -u origin master

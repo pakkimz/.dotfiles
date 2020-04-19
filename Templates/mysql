@@ -1,0 +1,2 @@
+"remove auto startup"
+sudo systemctl disable mysql
