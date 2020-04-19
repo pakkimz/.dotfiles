@@ -1,0 +1,50 @@
+#! /bin/sh
+
+bspc rule -r "*"
+sxhkd &
+# tint2 &
+compton -b -c &
+nitrogen --restore &
+killall "xfce4-power-manager"
+xfce4-power-manager &
+
+#bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d 1 2 3 4
+
+bspc config border_width         2
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+# white border
+# bspc config normal_border_color         '#1E2127'
+# bspc config active_border_color         '#1E2127'
+# bspc config focused_border_color        '#bbc2cf'
+# bspc config presel_feedback_color       '#bbc2cf'
+
+# brown border
+bspc config normal_border_color         '#1E2127'
+bspc config active_border_color		      '#1E2127'
+bspc config focused_border_color        '#deb887'
+bspc config presel_feedback_color       '#deb887'
+bspc config urgent_border_color 	      "#dd2727"
+
+# blue border
+# bspc config normal_border_color		      "#4c566a"
+# bspc config active_border_color	        "#1e1e1e"
+# bspc config focused_border_color	      "#5e81ac"
+# bspc config presel_feedback_color	      "#5e81ac"
+# bspc config urgent_border_color 	      "#dd2727"
+
+# bspc rule -a Gimp desktop='^8' state=floating follow=on
+# bspc rule -a Chromium desktop='^2'follow=on
+bspc rule -a SeaMonkey desktop='^2'follow=on
+bspc rule -a MPlayer state=floating
+bspc rule -a Pcmanfm state=floating
+bspc rule -a Mousepad state=floating
+# bspc rule -a Kupfer.py focus=on
+# bspc rule -a Screenkey manage=off
+
+/home/house/.config/polybar/launch.sh &
