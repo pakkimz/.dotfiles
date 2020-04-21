@@ -180,10 +180,10 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
       <!-- Resize Window -->
-    <keybind key="W-A-S-j"><action name="ResizeRelative"><bottom>-5</bottom></action></keybind>
-    <keybind key="W-A-S-k"><action name="ResizeRelative"><top>-5</top></action></keybind>
-    <keybind key="W-A-S-l"><action name="ResizeRelative"><right>-5</right></action></keybind>
-    <keybind key="W-A-S-h"><action name="ResizeRelative"><left>-5</left></action></keybind>
+    <keybind key="W-A-S-j"><action name="ResizeRelative"><top>-5</top></action></keybind>
+    <keybind key="W-A-S-k"><action name="ResizeRelative"><bottom>-5</bottom></action></keybind>
+    <keybind key="W-A-S-l"><action name="ResizeRelative"><left>-5</left></action></keybind>
+    <keybind key="W-A-S-h"><action name="ResizeRelative"><right>-5</right></action></keybind>
     <keybind key="W-A-h"><action name="ResizeRelative"><left>5</left></action></keybind>
     <keybind key="W-A-l"><action name="ResizeRelative"><right>5</right></action></keybind>
     <keybind key="W-A-j"><action name="ResizeRelative"><bottom>5</bottom></action></keybind>
