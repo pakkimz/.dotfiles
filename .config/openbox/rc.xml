@@ -42,7 +42,7 @@
       'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Shades-of-gray-Cerulean</name>
+    <name>Shades-of-gray-Orient</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
         available characters are NDSLIMC, each can occur at most once.
@@ -177,7 +177,22 @@
     <moveButton>Middle</moveButton>
     <!-- 'Left', 'Middle', 'Right' -->
   </dock>
-  <keyboard><chainQuitKey>C-g</chainQuitKey><!-- Resize Window --><keybind key="W-C-l"><action name="ResizeRelative"><right>-5</right></action></keybind><keybind key="W-C-h"><action name="ResizeRelative"><left>-5</left></action></keybind><keybind key="W-A-h"><action name="ResizeRelative"><left>5</left></action></keybind><keybind key="W-A-l"><action name="ResizeRelative"><right>5</right></action></keybind><keybind key="W-A-j"><action name="ResizeRelative"><bottom>5</bottom></action></keybind><keybind key="W-A-k"><action name="ResizeRelative"><bottom>-5</bottom></action></keybind><!-- Move Window --><keybind key="W-S-l"><action name="MoveRelative"><x>5</x><y>0</y></action></keybind><keybind key="W-S-h"><action name="MoveRelative"><x>-5</x><y>0</y></action></keybind><keybind key="W-S-j"><action name="MoveRelative"><x>0</x><y>5</y></action></keybind><keybind key="W-S-k"><action name="MoveRelative"><x>0</x><y>-5</y></action></keybind>
+  <keyboard>
+    <chainQuitKey>C-g</chainQuitKey>
+      <!-- Resize Window -->
+    <keybind key="W-S-j"><action name="ResizeRelative"><bottom>-5</bottom></action></keybind>
+    <keybind key="W-S-k"><action name="ResizeRelative"><top>-5</top></action></keybind>
+    <keybind key="W-S-l"><action name="ResizeRelative"><right>-5</right></action></keybind>
+    <keybind key="W-S-h"><action name="ResizeRelative"><left>-5</left></action></keybind>
+    <keybind key="W-A-h"><action name="ResizeRelative"><left>5</left></action></keybind>
+    <keybind key="W-A-l"><action name="ResizeRelative"><right>5</right></action></keybind>
+    <keybind key="W-A-j"><action name="ResizeRelative"><bottom>5</bottom></action></keybind>
+    <keybind key="W-A-k"><action name="ResizeRelative"><top>5</top></action></keybind>
+    <!-- Move Window -->
+    <keybind key="W-C-l"><action name="MoveRelative"><x>5</x><y>0</y></action></keybind>
+    <keybind key="W-C-h"><action name="MoveRelative"><x>-5</x><y>0</y></action></keybind>
+    <keybind key="W-C-j"><action name="MoveRelative"><x>0</x><y>5</y></action></keybind>
+    <keybind key="W-C-k"><action name="MoveRelative"><x>0</x><y>-5</y></action></keybind>
     Keybindings for desktop switching
     <keybind key="C-A-Left"><action name="GoToDesktop"><to>left</to><wrap>no</wrap></action></keybind>
     <keybind key="C-A-Right"><action name="GoToDesktop"><to>right</to><wrap>no</wrap></action></keybind>
@@ -215,7 +230,7 @@
     <!-- Keybindings for running applications -->
     <keybind key="W-e"><action name="Execute"><startupnotify><enabled>true</enabled><name>pcmanfm</name></startupnotify><command>pcmanfm</command></action></keybind>
     <keybind key="W-Return"><action name="Execute"><startupnotify><enabled>true</enabled><name>xterm</name></startupnotify><command>xterm</command></action></keybind>
-    <keybind key="W-u"><action name="Execute"><startupnotify><enabled>true</enabled><name>dmenu_run</name></startupnotify><command>dmenu_run</command></action></keybind>
+    <keybind key="W-S-Return"><action name="Execute"><startupnotify><enabled>true</enabled><name>dmenu_run</name></startupnotify><command>dmenu_run</command></action></keybind>
     <keybind key="C-A-l"><action name="Execute"><startupnotify><enabled>true</enabled><name>light-locker-command -l</name></startupnotify><command>light-locker-command -l</command></action></keybind>
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print"><action name="Execute"><command>scrot</command></action></keybind>

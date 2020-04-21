@@ -33,6 +33,7 @@ xterm*cursorColor: #d6d6d6
 xterm*faceName: monospace
 xterm*faceSize: 12
 
+! copy paste clipboard
 xterm*VT100.Translations: #override \
-                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
-                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
+    Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)

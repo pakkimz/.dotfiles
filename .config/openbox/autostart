@@ -17,7 +17,7 @@
 #xfce-mcs-manager &
 tint2 &
 # nm-applet &
-# nitrogen --restore &
+nitrogen --restore &
 compton -b -c &
 xfce4-power-manager &
 #clipit &

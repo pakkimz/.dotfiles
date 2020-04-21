@@ -7,8 +7,12 @@ super + Return
 	xterm
 
 # program launcher
-super + u
+super + shift + Return
 	dmenu_run
+
+# program pcman
+super + e
+	pcmanfm
 
 # make sxhkd reload its configuration files:
 super + Escape
