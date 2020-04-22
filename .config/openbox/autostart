@@ -19,7 +19,7 @@ tint2 &
 # nm-applet &
 nitrogen --restore &
 compton -b -c &
-xfce4-power-manager &
+# xfce4-power-manager &
 #clipit &
 volumeicon &
 xautolock -time 10 -locker "light-locker-command -l" &
