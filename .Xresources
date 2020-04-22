@@ -32,8 +32,17 @@ xterm*cursorColor: #d6d6d6
 ! Use a truetype font and size.
 xterm*faceName: monospace
 xterm*faceSize: 12
+xterm*renderFont: true
 
-! copy paste clipboard
+! Only select text
+xterm*highlightSelection: true
+! Remove trailing spaces
+xterm*trimSelection: true
+
+! copy paste clipboard & increase and decrease font
 xterm*VT100.Translations: #override \
-    Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
-    Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
+  Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+  Ctrl Shift <Key>C:    copy-selection(CLIPBOARD) \n\
+  Ctrl <Key> minus: smaller-vt-font() \n\
+  Ctrl <Key> plus: larger-vt-font() \n\
+  Ctrl <Key> 0: set-vt-font(d)
