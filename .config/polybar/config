@@ -69,12 +69,14 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 font-3 = apel:style:Regular:pixelsize=12;antialias=true;0
 
-modules-left = bspwm mpd
+modules-left = bspwm
+; modules-left = bspwm mpd
 ; modules-center = mpd
 modules-center = xwindow
 ; modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
 ; modules-right = filesystem xkeyboard memory cpu temperature date
-modules-right = pulseaudio xkeyboard filesystem memory cpu temperature date
+modules-right = alsa xkeyboard filesystem memory cpu temperature date
+; modules-right = xkeyboard memory cpu temperature date
 
 ; tray-position = right
 ; tray-padding = 2
