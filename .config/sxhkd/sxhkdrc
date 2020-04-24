@@ -128,7 +128,15 @@ super + {Left,Down,Up,Right}
 super + r
   bspc node @/ -R 90
 
-	#Volume Control
+# flip vertical
+super + v
+  bspc node '@/' --flip vertical
+
+# flip horizontal
+super + n
+  bspc node '@/' --flip horizontal
+
+# volume control
 XF86AudioLowerVolume
 	amixer set Master 5%-
 XF86AudioRaiseVolume
@@ -136,8 +144,7 @@ XF86AudioRaiseVolume
 XF86AudioMute
   amixer set Master toggle
 
-#Brightness control
-#XF86MonBrightnessDown
-#	brightnessctl -dec 5
 #XF86MonBrightnessUp
-#  brightnessctl -inc 5
+#  brightnessctl s +5
+#XF86MonBrightnessDown
+#	brightnessctl s 5-

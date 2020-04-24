@@ -21,5 +21,6 @@ nitrogen --restore &
 compton -b -c &
 # xfce4-power-manager &
 #clipit &
-volumeicon &
+# volumeicon &
+unclutter &
 xautolock -time 10 -locker "light-locker-command -l" &
