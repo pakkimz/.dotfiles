@@ -1,4 +1,4 @@
-" set termguicolors                                       " enable true colors support, disable it when use solarized
+set termguicolors                                       " enable true colors support, disable it when use solarized
 set nocompatible
 set background=dark                                     " for solarized (light/dark)
 set synmaxcol=128                                       " syntax coloring lines that are too long just slows down the world
@@ -6,7 +6,6 @@ set t_Co=256                                            " enable 256 color
 set t_ut=                                               " disbale background color erase (BCE)
 set re=1                                                " fixes slow speed due to syntax highlighting
 set number
-" set relativenumber
 set laststatus=2
 set ttyfast
 set ttyscroll=3
@@ -41,8 +40,8 @@ filetype plugin indent on                               " all in one line
 
 call plug#begin('~/.vim/plugged')
 Plug 'altercation/vim-colors-solarized'
-" Plug 'ayu-theme/ayu-vim'
-" Plug 'tomasr/molokai'
+Plug 'ayu-theme/ayu-vim'
+Plug 'tomasr/molokai'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'yuttie/comfortable-motion.vim'
@@ -55,10 +54,10 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
 Plug 'jeetsukumaran/vim-buffergator'                    " c-b for for buffer c-t for tab
 Plug 'ap/vim-css-color'
-Plug 'vim-scripts/argtextobj.vim'
 Plug 'valloric/matchtagalways'
-" Plug 'captbaritone/better-indent-support-for-php-with-html'
+Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
+Plug 'vim-scripts/argtextobj.vim'
 call plug#end()
 
 let mapleader = "\<Space>"
@@ -66,9 +65,9 @@ let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
 let g:solarized_termcolors=256
-" let ayucolor="dark"
+let ayucolor="dark"
 
-colorscheme solarized
+colorscheme ayu
 
 " go last edited
 nnoremap ge `.
@@ -171,4 +170,6 @@ autocmd BufLeave * if !&diff | let b:winview = winsaveview() | endif
 autocmd BufEnter * if exists('b:winview') && !&diff | call winrestview(b:winview) | unlet! b:winview | endif
 " resets the soft tab value to 2 spaces when I open a Python file
 autocmd FileType python set shiftwidth=2
+" perl
+autocmd FileType perl set complete-=i
 " hi StatusLine ctermbg=yellow ctermfg=black
