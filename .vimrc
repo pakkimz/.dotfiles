@@ -170,6 +170,6 @@ autocmd BufLeave * if !&diff | let b:winview = winsaveview() | endif
 autocmd BufEnter * if exists('b:winview') && !&diff | call winrestview(b:winview) | unlet! b:winview | endif
 " resets the soft tab value to 2 spaces when I open a Python file
 autocmd FileType python set shiftwidth=2
-" perl
+" get rid system include in perl
 autocmd FileType perl set complete-=i
 " hi StatusLine ctermbg=yellow ctermfg=black
