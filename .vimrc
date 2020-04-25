@@ -1,4 +1,4 @@
-set termguicolors                                       " enable true colors support, disable it when use solarized
+" set termguicolors                                       " enable true colors support, disable it when use solarized
 set nocompatible
 set background=dark                                     " for solarized (light/dark)
 set synmaxcol=128                                       " syntax coloring lines that are too long just slows down the world
@@ -40,8 +40,8 @@ filetype plugin indent on                               " all in one line
 
 call plug#begin('~/.vim/plugged')
 Plug 'altercation/vim-colors-solarized'
-Plug 'ayu-theme/ayu-vim'
-Plug 'tomasr/molokai'
+" Plug 'ayu-theme/ayu-vim'
+" Plug 'tomasr/molokai'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'yuttie/comfortable-motion.vim'
@@ -65,9 +65,9 @@ let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
 let g:solarized_termcolors=256
-let ayucolor="dark"
+" let ayucolor="dark"
 
-colorscheme ayu
+colorscheme solarized
 
 " go last edited
 nnoremap ge `.

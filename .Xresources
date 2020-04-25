@@ -1,33 +1,24 @@
 xterm*termName: xterm-256color
-! Colours for xterm
-XTerm*background: #272822
-XTerm*foreground: #303030
-XTerm*cursorColor: #303030
-! sets colors for everything.
-*background: #272822
-*foreground: #a08080
-*cursorColor: #aaaaaa
-!Theme Nine
-xterm*background: rgb:1a/1a/1a
-xterm*foreground: rgb:d6/d6/d6
-xterm*color0:     rgb:00/00/00
-xterm*color1:     rgb:9e/18/28
-xterm*color2:     rgb:00/88/00
-xterm*color3:     rgb:96/8a/38
-xterm*color4:     rgb:41/41/71
-xterm*color5:     rgb:96/3c/59
-xterm*color6:     rgb:41/81/79
-xterm*color7:     rgb:be/be/be
-xterm*color8:     rgb:66/66/66
-xterm*color9:     rgb:cf/61/71
-xterm*color10:    rgb:7c/bc/8c
-xterm*color11:    rgb:ff/f7/96
-xterm*color12:    rgb:41/86/be
-xterm*color13:    rgb:cf/9e/be
-xterm*color14:    rgb:71/be/be
-xterm*color15:    rgb:ff/ff/ff
-
-xterm*cursorColor: #d6d6d6
+/* !! brogrammer: */
+xterm*.foreground:  #d6dbe5
+xterm*.background:  #131313
+xterm*.color0:      #1f1f1f
+xterm*.color8:      #d6dbe5
+xterm*.color1:      #f81118
+xterm*.color9:      #de352e
+xterm*.color2:      #2dc55e
+xterm*.color10:     #1dd361
+xterm*.color3:      #ecba0f
+xterm*.color11:     #f3bd09
+xterm*.color4:      #2a84d2
+xterm*.color12:     #1081d6
+xterm*.color5:      #4e5ab7
+xterm*.color13:     #5350b9
+xterm*.color6:      #1081d6
+xterm*.color14:     #0f7ddb
+xterm*.color7:      #d6dbe5
+xterm*.color15:     #ffffff
+xterm*.colorBD:     #d6dbe5
 
 ! Use a truetype font and size.
 xterm*faceName: monospace
@@ -46,3 +37,23 @@ xterm*VT100.Translations: #override \
   Ctrl <Key> minus: smaller-vt-font() \n\
   Ctrl <Key> plus: larger-vt-font() \n\
   Ctrl <Key> 0: set-vt-font(d)
+
+/* ! Dracula Xresources palette */
+/* *.foreground: #F8F8F2 */
+/* *.background: #282A36 */
+/* *.color0:     #000000 */
+/* *.color8:     #4D4D4D */
+/* *.color1:     #FF5555 */
+/* *.color9:     #FF6E67 */
+/* *.color2:     #50FA7B */
+/* *.color10:    #5AF78E */
+/* *.color3:     #F1FA8C */
+/* *.color11:    #F4F99D */
+/* *.color4:     #BD93F9 */
+/* *.color12:    #CAA9FA */
+/* *.color5:     #FF79C6 */
+/* *.color13:    #FF92D0 */
+/* *.color6:     #8BE9FD */
+/* *.color14:    #9AEDFE */
+/* *.color7:     #BFBFBF */
+/* *.color15:    #E6E6E6 */
