@@ -40,8 +40,8 @@ filetype plugin indent on                               " all in one line
 
 call plug#begin('~/.vim/plugged')
 Plug 'altercation/vim-colors-solarized'
-" Plug 'ayu-theme/ayu-vim'
-" Plug 'tomasr/molokai'
+Plug 'ayu-theme/ayu-vim'
+Plug 'tomasr/molokai'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'yuttie/comfortable-motion.vim'
