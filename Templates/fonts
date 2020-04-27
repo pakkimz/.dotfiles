@@ -1,5 +1,4 @@
 fc-match <font-name>
-xterm -report-fonts
 
 fc-cache -v -f
 fc-list | grep <font-name>
