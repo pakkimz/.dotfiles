@@ -32,6 +32,7 @@ set nostartofline                                       " sometimes cursor jumpi
 set expandtab
 set hlsearch
 set autowrite		                                        " automatically save before commands like :next and :make
+set ttimeoutlen=10                                      " faster sequance esc+O
 
 syntax on
 syntax sync minlines=256
@@ -172,4 +173,3 @@ autocmd BufEnter * if exists('b:winview') && !&diff | call winrestview(b:winview
 autocmd FileType python set shiftwidth=2
 " get rid system include in perl
 autocmd FileType perl set complete-=i
-" hi StatusLine ctermbg=yellow ctermfg=black
