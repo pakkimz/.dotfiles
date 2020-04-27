@@ -6,7 +6,7 @@ set t_Co=256                                            " enable 256 color
 set t_ut=                                               " disbale background color erase (BCE)
 set re=1                                                " fixes slow speed due to syntax highlighting
 set number
-set laststatus=2
+" set laststatus=2
 set ttyfast
 set ttyscroll=3
 set tabstop=2
