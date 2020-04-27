@@ -33,6 +33,8 @@ set expandtab
 set hlsearch
 set autowrite		                                        " automatically save before commands like :next and :make
 set ttimeoutlen=10                                      " faster sequance esc+O
+set noshowmode                                          " hide the insert status
+set showcmd                                             " showing command history
 
 syntax on
 syntax sync minlines=256
