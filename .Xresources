@@ -21,8 +21,9 @@ xterm*.color15:     #ffffff
 xterm*.colorBD:     #d6dbe5
 
 ! Use a truetype font and size.
-xterm*faceName: monospace
-xterm*faceSize: 12
+! xterm*faceName: DejaVu Sans Mono:style=Book
+xterm*faceName: Ubuntu Mono
+xterm*faceSize: 14
 xterm*renderFont: true
 
 ! Only select text

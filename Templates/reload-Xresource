@@ -1,2 +1,6 @@
 xrdb -load .Xresources
 xrdb -merge ~/.Xresources
+
+*****xterm info*****
+xterm -report-fonts.
+xterm -report-colors.
