@@ -6,18 +6,27 @@ set t_Co=256                                            " enable 256 color
 set t_ut=                                               " disbale background color erase (BCE)
 set re=1                                                " fixes slow speed due to syntax highlighting
 set number
-" set laststatus=2
+set laststatus=0
+set noshowmode                                          " hide the insert status
+set showcmd                                             " showing command history
+set noruler                                             " dont show line and column number
+set matchtime=3
+set ttimeoutlen=10                                      " faster sequance esc+O
 set ttyfast
 set ttyscroll=3
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set textwidth=106
-set matchtime=3
 set autoindent
 set mouse=a
 set ttymouse=xterm2                                     " resize split with mouse
 set wildmenu
+set nostartofline                                       " sometimes cursor jumping back
+set expandtab
+set hlsearch
+set autowrite		                                        " automatically save before commands like :next and :make
+set complete-=i                                         " get rid system include in auto completion
 set undofile
 set history=1000
 set backup
@@ -28,13 +37,6 @@ set directory=~/.vim/tmp/swap//
 set backupdir=~/.vim/tmp/backup//
 set dictionary=/usr/share/dict/words
 set listchars=tab:→\ ,eol:↲                             " unicode for → = u2192, ↲ = u21b2. set list display it
-set nostartofline                                       " sometimes cursor jumping back
-set expandtab
-set hlsearch
-set autowrite		                                        " automatically save before commands like :next and :make
-set ttimeoutlen=10                                      " faster sequance esc+O
-set noshowmode                                          " hide the insert status
-set showcmd                                             " showing command history
 
 syntax on
 syntax sync minlines=256
@@ -42,9 +44,8 @@ syntax sync minlines=256
 filetype plugin indent on                               " all in one line
 
 call plug#begin('~/.vim/plugged')
-" Plug 'altercation/vim-colors-solarized'
 Plug 'ayu-theme/ayu-vim'
-" Plug 'tomasr/molokai'
+Plug 'tomasr/molokai'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'yuttie/comfortable-motion.vim'
@@ -67,7 +68,6 @@ let mapleader = "\<Space>"
 let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
-let g:solarized_termcolors=256
 let ayucolor="dark"
 
 colorscheme ayu
@@ -173,5 +173,3 @@ autocmd BufLeave * if !&diff | let b:winview = winsaveview() | endif
 autocmd BufEnter * if exists('b:winview') && !&diff | call winrestview(b:winview) | unlet! b:winview | endif
 " resets the soft tab value to 2 spaces when I open a Python file
 autocmd FileType python set shiftwidth=2
-" get rid system include in perl
-autocmd FileType perl set complete-=i
