@@ -27,30 +27,6 @@ r2
 
 # Left window history (oldest to newest):
 d/usr/share
-	..
-0
-d/usr
-	..
-0
-d/
-	home
-4
-d/home
-	house
-1
-d/home/house
-	..
-0
-d/home
-	..
-0
-d/
-	usr
-20
-d/usr
-	share
-11
-d/usr/share
 	fonts
 28
 d/usr/share/fonts
@@ -324,8 +300,32 @@ d/home/house/.config/vifm
 	colors
 1
 d/home/house/.config/vifm/colors
-	Default.vifm
+	..
+0
+d/home/house/.config/vifm
+	colors
 1
+d/home/house/.config
+	vifm
+23
+d/home/house
+	.config
+2
+d/home/house/.config
+	compton
+4
+d/home/house/.config/compton
+	..
+0
+d/home/house/.config
+	..
+0
+d/home/house
+	.config
+2
+d/home/house/.config
+	redshift.conf
+28
 d
 
 # Right window history (oldest to newest):
@@ -468,13 +468,15 @@ D
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/house/Downloads/Roboto Mono Nerd Font Complete Mono.ttf
+""/home/house/.local/share/vifm/Trash/000_compton
 
 # Directory stack (oldest to newest):
 
 # Trash content:
 t/home/house/.local/share/vifm/Trash/000_Sting - Fields Of Gold (Official Video)-KLVq0IAzh1A.m4a
 	/home/house/Downloads/Sting - Fields Of Gold (Official Video)-KLVq0IAzh1A.m4a
+t/home/house/.local/share/vifm/Trash/000_compton
+	/home/house/.config/compton
 
 # State:
 f
