@@ -22,7 +22,12 @@ xterm*.colorBD:     #d6dbe5
 
 ! Use a truetype font and size.
 ! xterm*faceName: DejaVu Sans Mono:style=Book
-xterm*faceName: DejaVuSansMono Nerd Font Mono:style=Book
+! xterm*faceName: DejaVuSansMono Nerd Font Mono:style=Book
+! xterm*faceName: MesloLGS Nerd Font Mono:style=Regular
+! xterm*faceName: RobotoMono Nerd Font Mono:style=Regular
+! xterm*faceName: Cousine Nerd Font Mono:style=Regular
+! xterm*faceName: FiraCode Nerd Font Mono:style=Regular
+xterm*faceName: Hack Nerd Font Mono:style=Regular
 xterm*faceSize: 12
 xterm*renderFont: true
 
