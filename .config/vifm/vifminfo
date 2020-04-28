@@ -1,0 +1,488 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/house/
+	..
+1587827024
+'b
+	/home/house/bin/
+	..
+1587827024
+'h
+	/home/house/
+	..
+1587827024
+
+# Bookmarks:
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/usr/share
+	..
+0
+d/usr
+	..
+0
+d/
+	home
+4
+d/home
+	house
+1
+d/home/house
+	..
+0
+d/home
+	..
+0
+d/
+	usr
+20
+d/usr
+	share
+11
+d/usr/share
+	fonts
+28
+d/usr/share/fonts
+	X11
+1
+d/usr/share
+	fonts
+28
+d/usr
+	share
+11
+d/
+	usr
+20
+d/usr
+	share
+11
+d/usr/share
+	fonts
+28
+d/usr/share/fonts
+	X11
+1
+d/usr/share/fonts/X11
+	..
+0
+d/usr/share/fonts
+	truetype
+7
+d/usr/share/fonts/truetype
+	lato
+6
+d/usr/share/fonts/truetype/lato
+	Lato-Thin.ttf
+18
+d/usr/share/fonts/truetype
+	ubuntu
+11
+d/usr/share/fonts/truetype/ubuntu
+	UbuntuMono-RI.ttf
+14
+d/usr/share/fonts/truetype
+	roboto
+10
+d/usr/share/fonts/truetype/roboto
+	slab
+1
+d/usr/share/fonts/truetype/roboto/slab
+	..
+0
+d/usr/share/fonts/truetype/roboto
+	slab
+1
+d/usr/share/fonts/truetype
+	roboto
+10
+d/usr/share/fonts/truetype/roboto
+	slab
+1
+d/usr/share/fonts/truetype/roboto/slab
+	..
+0
+d/usr/share/fonts/truetype/roboto
+	slab
+1
+d/usr/share/fonts/truetype
+	font-awesome
+4
+d/usr/share/fonts/truetype/font-awesome
+	fontawesome-webfont.ttf
+2
+d/usr/share/fonts/truetype
+	fonts-arabeyes
+5
+d/usr/share/fonts/truetype/fonts-arabeyes
+	ae_Tholoth.ttf
+33
+d/usr/share/fonts/truetype
+	liberation2
+7
+d/usr/share/fonts/truetype/liberation2
+	LiberationSerif-Regular.ttf
+13
+d/usr/share/fonts/truetype
+	noto
+8
+d/usr/share/fonts/truetype/noto
+	NotoMono-Regular.ttf
+2
+d/usr/share/fonts/truetype
+	quicksand
+9
+d/usr/share/fonts/truetype/quicksand
+	..
+0
+d/usr/share/fonts/truetype
+	roboto
+10
+d/usr/share/fonts/truetype/roboto
+	slab
+1
+d/usr/share/fonts/truetype/roboto/slab
+	.uuid
+1
+d/usr/share/fonts/truetype/roboto
+	slab
+1
+d/usr/share/fonts/truetype
+	dejavu
+2
+d/usr/share/fonts
+	truetype
+7
+d/usr/share
+	fonts
+28
+d/usr
+	share
+11
+d/
+	home
+4
+d/home
+	house
+1
+d/home/house
+	.icons
+6
+d/home/house/.icons
+	..
+0
+d/home/house
+	.local
+7
+d/home/house/.local
+	share
+1
+d/home/house/.local/share
+	fonts
+4
+d/home/house/.local/share/fonts
+	..
+0
+d/home/house/.local/share
+	..
+0
+d/home/house/.local
+	..
+0
+d/home/house
+	Downloads
+10
+d/home/house/Downloads
+	..
+0
+d/home/house
+	.config
+2
+d/home/house/.config
+	vifm
+23
+d/home/house/.config/vifm
+	colors
+1
+d/home/house/.config/vifm/colors
+	..
+0
+d/home/house/.config/vifm
+	scripts
+2
+d/home/house/.config/vifm/scripts
+	..
+0
+d/home/house/.config/vifm
+	scripts
+2
+d/home/house/.config
+	vifm
+23
+d/home/house
+	..
+0
+d/home
+	house
+1
+d/home/house
+	..
+0
+d/home
+	house
+1
+d/
+	home
+4
+d/home
+	house
+1
+d/
+	home
+4
+d/home
+	..
+0
+d/
+	home
+4
+d/home
+	house
+1
+d/home/house
+	.local
+7
+d/home/house/.local
+	share
+1
+d/home/house/.local/share
+	fonts
+4
+d/home/house/.local/share/fonts
+	..
+0
+d/home/house/.local/share
+	..
+0
+d/home/house/.local
+	..
+0
+d/home/house
+	.icons
+6
+d/home/house/.icons
+	..
+0
+d/home/house
+	.local
+7
+d/home/house/.local
+	share
+1
+d/home/house/.local/share
+	fonts
+4
+d/home/house/.local/share/fonts
+	..
+0
+d/home/house/.local/share
+	..
+0
+d/home/house/.local
+	share
+1
+d/home/house/.local/share
+	backgrounds
+3
+d/home/house/.local/share/backgrounds
+	..
+0
+d/home/house/.local/share
+	backgrounds
+3
+d/home/house/.local
+	share
+1
+d/home/house
+	.config
+2
+d/home/house/.config
+	vifm
+23
+d/home/house/.config/vifm
+	colors
+1
+d/home/house/.config/vifm/colors
+	Default.vifm
+1
+d
+
+# Right window history (oldest to newest):
+D/home/house
+	Documents
+2
+D/home
+	house
+1
+D/home/house
+	Music
+4
+D/home
+	house
+1
+D/
+	media
+10
+D/media
+	..
+0
+D/
+	mnt
+11
+D/mnt
+	..
+0
+D/
+	home
+4
+D/home
+	house
+1
+D/home/house
+	Public
+6
+D/home
+	house
+1
+D/
+	home
+4
+D/home
+	house
+1
+D/home/house
+	Downloads
+3
+D/home/house/Downloads
+	..
+0
+D/home/house
+	Public
+6
+D/home/house/Public
+	..
+0
+D/home/house
+	Pictures
+5
+D/home/house/Pictures
+	..
+0
+D/home/house
+	Documents
+2
+D/home/house/Documents
+	..
+0
+D/home/house
+	Templates
+7
+D/home/house/Templates
+	..
+0
+D/home/house
+	Downloads
+20
+D/home/house/Downloads
+	..
+0
+D/home/house
+	Music
+21
+D/home/house/Music
+	Sting - Fields Of Gold (Official Video)-KLVq0IAzh1A.m4a
+3
+D/home/house
+	.local
+7
+D/home/house/.local
+	share
+1
+D/home/house/.local/share
+	fonts
+4
+D/home/house/.local/share/fonts
+	..
+0
+D/home/house/.local/share
+	..
+0
+D/home/house/.local
+	..
+0
+D/home/house
+	README.md
+33
+D/home
+	house
+1
+D/
+	home
+4
+D/home
+	house
+1
+D/home/house
+	Downloads
+20
+D/home/house/Downloads
+	..
+0
+D/home/house
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:rename!
+:rename
+:h
+:q
+
+# Search history (oldest to newest):
+/font
+
+# Prompt history (oldest to newest):
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/house/Downloads/Roboto Mono Nerd Font Complete Mono.ttf
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/house/.local/share/vifm/Trash/000_Sting - Fields Of Gold (Official Video)-KLVq0IAzh1A.m4a
+	/home/house/Downloads/Sting - Fields Of Gold (Official Video)-KLVq0IAzh1A.m4a
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0
