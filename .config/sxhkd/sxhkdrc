@@ -144,7 +144,7 @@ XF86AudioRaiseVolume
 XF86AudioMute
   amixer set Master toggle
 
-#XF86MonBrightnessUp
-#  brightnessctl s +5
-#XF86MonBrightnessDown
-#	brightnessctl s 5-
+# XF86MonBrightnessUp
+# brightnessctl s 2+
+# XF86MonBrightnessDown
+#	brightnessctl s 2-
