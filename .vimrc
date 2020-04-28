@@ -6,10 +6,8 @@ set t_Co=256                                            " enable 256 color
 set t_ut=                                               " disbale background color erase (BCE)
 set re=1                                                " fixes slow speed due to syntax highlighting
 set number
-set laststatus=0
 set noshowmode                                          " hide the insert status
 set showcmd                                             " showing command history
-set noruler                                             " dont show line and column number
 set matchtime=3
 set ttimeoutlen=10                                      " faster sequance esc+O
 set ttyfast
