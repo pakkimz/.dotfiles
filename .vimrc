@@ -71,6 +71,9 @@ let g:comfortable_motion_no_default_key_mappings = 1    " disable default mappin
 " colorscheme railscasts
 colorscheme base16-material-darker
 " colorscheme base16-google-dark
+" colorscheme base16-default-dark
+" colorscheme base16-classic-dark
+" colorscheme base16-black-metal-bathory
 " colorscheme base16-gruvbox-light-hard
 
 " go last edited
