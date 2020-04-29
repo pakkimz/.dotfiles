@@ -66,9 +66,10 @@ let mapleader = "\<Space>"
 let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
+let g:comfortable_motion_no_default_key_mappings = 1    " disable default mapping
 
-colorscheme railscasts
-" colorscheme base16-material-darker
+" colorscheme railscasts
+colorscheme base16-material-darker
 " colorscheme base16-google-dark
 " colorscheme base16-gruvbox-light-hard
 
@@ -149,6 +150,12 @@ nnoremap gD "+D
 vnoremap gd "+d
 nnoremap gp "+p
 vnoremap gp "+p
+
+" don't scroll too fast
+nnoremap <silent> <C-d> :call comfortable_motion#flick(50)<CR>
+nnoremap <silent> <C-u> :call comfortable_motion#flick(-50)<CR>
+nnoremap <silent> <C-f> :call comfortable_motion#flick(100)<CR>
+nnoremap <silent> <C-b> :call comfortable_motion#flick(-100)<CR>
 
 " move between tags
 runtime! macros/matchit.vim
