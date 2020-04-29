@@ -42,8 +42,8 @@ syntax sync minlines=256
 filetype plugin indent on                               " all in one line
 
 call plug#begin('~/.vim/plugged')
+Plug 'chriskempson/base16-vim'
 Plug 'jpo/vim-railscasts-theme'
-" Plug 'ayu-theme/ayu-vim'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'yuttie/comfortable-motion.vim'
@@ -66,9 +66,11 @@ let mapleader = "\<Space>"
 let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
-" let ayucolor="dark"
 
 colorscheme railscasts
+" colorscheme base16-material-darker
+" colorscheme base16-google-dark
+" colorscheme base16-gruvbox-light-hard
 
 " go last edited
 nnoremap ge `.

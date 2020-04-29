@@ -41,13 +41,13 @@ xterm*trimSelection: true
 
 ! Copy paste clipboard & increase and decrease font
 xterm*VT100.Translations: #override \
-  Ctrl <Key>v: insert-selection(CLIPBOARD) \n\
-  Ctrl <Key>c: copy-selection(CLIPBOARD) \n\
+  Ctrl Shift <Key> V: insert-selection(CLIPBOARD) \n\
+  Ctrl Shift <Key> C: copy-selection(CLIPBOARD) \n\
   Ctrl <Key> minus: smaller-vt-font() \n\
   Ctrl <Key> plus: larger-vt-font() \n\
   Ctrl <Key> 0: set-vt-font(d) \n\
-  Ctrl <Key>e: scroll-back(1) \n\
-  Ctrl <Key>y: scroll-forw(1)
+  Ctrl Shift <Key> K: scroll-back(1) \n\
+  Ctrl Shift <Key> J: scroll-forw(1)
 
 ! Base16 Default Dark
 ! Scheme: Chris Kempson (http://chriskempson.com)
