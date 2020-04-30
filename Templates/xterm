@@ -1,2 +1,4 @@
 xterm -report-fonts
 xterm -report-colors
+
+xrdb -query | grep <current setting>

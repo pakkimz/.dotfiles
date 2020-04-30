@@ -1,36 +1,13 @@
 xterm*termName: xterm-256color
-! Brogrammer:
-!xterm*.foreground:  #d6dbe5
-!xterm*.background:  #131313
-!xterm*.color0:      #1f1f1f
-!xterm*.color8:      #d6dbe5
-!xterm*.color1:      #f81118
-!xterm*.color9:      #de352e
-!xterm*.color2:      #2dc55e
-!xterm*.color10:     #1dd361
-!xterm*.color3:      #ecba0f
-!xterm*.color11:     #f3bd09
-!xterm*.color4:      #2a84d2
-!xterm*.color12:     #1081d6
-!xterm*.color5:      #4e5ab7
-!xterm*.color13:     #5350b9
-!xterm*.color6:      #1081d6
-!xterm*.color14:     #0f7ddb
-!xterm*.color7:      #d6dbe5
-!xterm*.color15:     #ffffff
-!xterm*.colorBD:     #d6dbe5
-
-! Cursor color is always the color of the foreground,
-xterm*cursorColor: *XtDefaultForeground
 
 ! Use a truetype font and size.
 ! xterm*faceName: DejaVu Sans Mono:style=Book
 ! xterm*faceName: DejaVuSansMono Nerd Font Mono:style=Book
-xterm*faceName: MesloLGS Nerd Font Mono:style=Regular
 ! xterm*faceName: RobotoMono Nerd Font Mono:style=Regular
 ! xterm*faceName: Cousine Nerd Font Mono:style=Regular
 ! xterm*faceName: FiraCode Nerd Font Mono:style=Regular
 ! xterm*faceName: Hack Nerd Font Mono:style=Regular
+xterm*faceName: MesloLGS Nerd Font Mono:style=Regular
 xterm*faceSize: 12
 xterm*renderFont: true
 
@@ -38,6 +15,12 @@ xterm*renderFont: true
 xterm*highlightSelection: true
 ! Remove trailing spaces
 xterm*trimSelection: true
+! By default, 1024 lines are saved.
+XTerm.vt100.saveLines: 4096
+! Cursor color is always the color of the foreground,
+xterm*cursorColor: *XtDefaultForeground
+! The definition of a "word" depends on the character class resource
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
 
 ! Copy paste clipboard & increase and decrease font
 xterm*VT100.Translations: #override \
@@ -49,25 +32,25 @@ xterm*VT100.Translations: #override \
   Ctrl Shift <Key> K: scroll-back(1) \n\
   Ctrl Shift <Key> J: scroll-forw(1)
 
-! Base16 Default Dark
-! Scheme: Chris Kempson (http://chriskempson.com)
+! Base16 Classic Dark
+! Scheme: Jason Heeris (http://heeris.id.au)
 
-#define base00 #181818
-#define base01 #282828
-#define base02 #383838
-#define base03 #585858
-#define base04 #b8b8b8
-#define base05 #d8d8d8
-#define base06 #e8e8e8
-#define base07 #f8f8f8
-#define base08 #ab4642
-#define base09 #dc9656
-#define base0A #f7ca88
-#define base0B #a1b56c
-#define base0C #86c1b9
-#define base0D #7cafc2
-#define base0E #ba8baf
-#define base0F #a16946
+#define base00 #151515
+#define base01 #202020
+#define base02 #303030
+#define base03 #505050
+#define base04 #b0b0b0
+#define base05 #d0d0d0
+#define base06 #e0e0e0
+#define base07 #f5f5f5
+#define base08 #ac4142
+#define base09 #d28445
+#define base0A #f4bf75
+#define base0B #90a959
+#define base0C #75b5aa
+#define base0D #6a9fb5
+#define base0E #aa759f
+#define base0F #8f5536
 
 *foreground:   base05
 #ifdef background_opacity
