@@ -68,13 +68,13 @@ let delimitMate_expand_space = 1
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
 let g:comfortable_motion_no_default_key_mappings = 1    " disable default mapping
 
-" colorscheme railscasts
-" colorscheme base16-material-darker
-" colorscheme base16-google-dark
-" colorscheme base16-default-dark
-" colorscheme base16-classic-dark
-" colorscheme base16-black-metal-bathory
-colorscheme base16-gruvbox-light-hard
+colorscheme base16-default-dark
+nnoremap <silent><leader>0 :colorscheme base16-default-dark<CR>
+nnoremap <silent><leader>1 :colorscheme railscasts<CR>
+nnoremap <silent><leader>2 :colorscheme base16-material-darker<CR>
+nnoremap <silent><leader>3 :colorscheme base16-google-dark<CR>
+nnoremap <silent><leader>4 :colorscheme base16-black-metal-bathory<CR>
+nnoremap <silent><leader>5 :colorscheme base16-gruvbox-light-hard<CR>
 
 " go last edited
 nnoremap ge `.
