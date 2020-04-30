@@ -43,7 +43,6 @@ filetype plugin indent on                               " all in one line
 
 call plug#begin('~/.vim/plugged')
 Plug 'chriskempson/base16-vim'
-Plug 'jpo/vim-railscasts-theme'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'yuttie/comfortable-motion.vim'
@@ -68,13 +67,17 @@ let delimitMate_expand_space = 1
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
 let g:comfortable_motion_no_default_key_mappings = 1    " disable default mapping
 
-colorscheme base16-default-dark
-nnoremap <silent><leader>0 :colorscheme base16-default-dark<CR>
-nnoremap <silent><leader>1 :colorscheme railscasts<CR>
-nnoremap <silent><leader>2 :colorscheme base16-material-darker<CR>
-nnoremap <silent><leader>3 :colorscheme base16-google-dark<CR>
-nnoremap <silent><leader>4 :colorscheme base16-black-metal-bathory<CR>
-nnoremap <silent><leader>5 :colorscheme base16-gruvbox-light-hard<CR>
+colorscheme base16-synth-midnight-dark
+nnoremap <silent><leader>0 :colorscheme base16-3024<CR>
+nnoremap <silent><leader>1 :colorscheme base16-synth-midnight-dark<CR>
+nnoremap <silent><leader>2 :colorscheme base16-irblack<CR>
+nnoremap <silent><leader>3 :colorscheme base16-bright<CR>
+nnoremap <silent><leader>4 :colorscheme base16-macintosh<CR>
+nnoremap <silent><leader>5 :colorscheme base16-black-metal-bathory<CR>
+nnoremap <silent><leader>6 :colorscheme base16-one-light<CR>
+nnoremap <silent><leader>7 :colorscheme base16-summerfruit-light<CR>
+nnoremap <silent><leader>8 :colorscheme base16-gruvbox-light-hard<CR>
+nnoremap <silent><leader>9 :colorscheme base16-github<CR>
 
 " go last edited
 nnoremap ge `.
