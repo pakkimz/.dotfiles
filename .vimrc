@@ -53,12 +53,15 @@ Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
 Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
-Plug 'kana/vim-textobj-user'
-Plug 'kana/vim-textobj-entire'
-Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
+Plug 'ivalkeen/vim-simpledb'
 Plug 'ap/vim-css-color'
 Plug 'valloric/matchtagalways'
+Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 Plug 'captbaritone/better-indent-support-for-php-with-html'
+Plug 'kana/vim-textobj-user'
+Plug 'kana/vim-textobj-entire'
+Plug 'kana/vim-textobj-function'
+Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
 call plug#end()
 
@@ -68,7 +71,7 @@ let delimitMate_expand_space = 1
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
 let g:comfortable_motion_no_default_key_mappings = 1    " disable default mapping
 
-colorscheme base16-gruvbox-light-hard
+colorscheme base16-synth-midnight-dark
 
 nnoremap <silent><leader>0 :colorscheme base16-3024<CR>
 nnoremap <silent><leader>1 :colorscheme base16-synth-midnight-dark<CR>
