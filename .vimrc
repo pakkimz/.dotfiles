@@ -44,7 +44,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'chriskempson/base16-vim'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
-Plug 'vim-scripts/star-search'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'henrik/vim-indexed-search'
 Plug 'matze/vim-move'
@@ -53,13 +52,14 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
-Plug 'jeetsukumaran/vim-buffergator'                    " c-b for for buffer c-t for tab
+Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
 Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-entire'
 Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 Plug 'ap/vim-css-color'
 Plug 'valloric/matchtagalways'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
+Plug 'vim-scripts/loremipsum'
 call plug#end()
 
 let mapleader = "\<Space>"
@@ -68,7 +68,7 @@ let delimitMate_expand_space = 1
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
 let g:comfortable_motion_no_default_key_mappings = 1    " disable default mapping
 
-colorscheme base16-github
+colorscheme base16-gruvbox-light-hard
 
 nnoremap <silent><leader>0 :colorscheme base16-3024<CR>
 nnoremap <silent><leader>1 :colorscheme base16-synth-midnight-dark<CR>
