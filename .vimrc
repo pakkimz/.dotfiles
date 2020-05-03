@@ -63,11 +63,13 @@ Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
+Plug 'majutsushi/tagbar'
 call plug#end()
 
 let mapleader = "\<Space>"
 let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
+let g:tagbar_sort = 0                                   " order tags based on file order, don't sort alphabetically
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
 let g:comfortable_motion_no_default_key_mappings = 1    " disable default mapping
 
@@ -167,6 +169,9 @@ nnoremap <silent> <C-d> :call comfortable_motion#flick(50)<CR>
 nnoremap <silent> <C-u> :call comfortable_motion#flick(-50)<CR>
 nnoremap <silent> <C-f> :call comfortable_motion#flick(100)<CR>
 nnoremap <silent> <C-b> :call comfortable_motion#flick(-100)<CR>
+
+" tagbar
+nnoremap <F8> :TagbarToggle<CR>
 
 " move between tags
 runtime! macros/matchit.vim
