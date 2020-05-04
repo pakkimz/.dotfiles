@@ -86,7 +86,7 @@ nnoremap <silent><leader>7 :colorscheme base16-summerfruit-light<CR>
 nnoremap <silent><leader>8 :colorscheme base16-gruvbox-light-hard<CR>
 nnoremap <silent><leader>9 :colorscheme base16-github<CR>
 
-" go last edited
+" 'g+o' last edited, 'g+i' for last insert
 nnoremap ge `.
 
 " say Nop for q and Q
