@@ -63,7 +63,7 @@ Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
-Plug 'majutsushi/tagbar'
+Plug 'majutsushi/tagbar'                                " sudo apt install exuberant-ctags
 call plug#end()
 
 let mapleader = "\<Space>"
