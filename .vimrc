@@ -82,7 +82,7 @@ nnoremap <silent><leader>3 :colorscheme base16-bright<CR>
 nnoremap <silent><leader>4 :colorscheme base16-macintosh<CR>
 nnoremap <silent><leader>5 :colorscheme base16-black-metal-bathory<CR>
 nnoremap <silent><leader>6 :colorscheme base16-one-light<CR>
-nnoremap <silent><leader>7 :colorscheme base16-summerfruit-light<CR>
+nnoremap <silent><leader>7 :colorscheme base16-solarized-light<CR>
 nnoremap <silent><leader>8 :colorscheme base16-gruvbox-light-hard<CR>
 nnoremap <silent><leader>9 :colorscheme base16-github<CR>
 
