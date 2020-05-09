@@ -41,6 +41,7 @@ syntax sync minlines=256
 filetype plugin indent on                               " all in one line
 
 call plug#begin('~/.vim/plugged')
+Plug 'dbb/vim-gummybears-colorscheme'
 Plug 'chriskempson/base16-vim'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
@@ -64,6 +65,7 @@ Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
 Plug 'majutsushi/tagbar'                                " sudo apt install exuberant-ctags
+Plug 'vifm/vifm.vim'
 call plug#end()
 
 let mapleader = "\<Space>"
@@ -72,8 +74,10 @@ let delimitMate_expand_space = 1
 let g:tagbar_sort = 0                                   " order tags based on file order, don't sort alphabetically
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
 let g:comfortable_motion_no_default_key_mappings = 1    " disable default mapping
+let g:buffergator_viewport_split_policy = "B"
+let g:buffergator_split_size = 10
 
-colorscheme base16-synth-midnight-dark
+colorscheme gummybears
 
 nnoremap <silent><leader>0 :colorscheme base16-3024<CR>
 nnoremap <silent><leader>1 :colorscheme base16-synth-midnight-dark<CR>
