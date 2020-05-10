@@ -5,7 +5,7 @@ sxhkd &
 compton -b -c &
 nitrogen --restore &
 unclutter &
-redshift &
+# redshift &
 
 #bspc monitor -d I II III IV V VI VII VIII IX X
 #bspc monitor -d     
