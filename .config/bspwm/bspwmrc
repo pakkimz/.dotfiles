@@ -11,7 +11,7 @@ redshift &
 #bspc monitor -d     
 bspc monitor -d     
 
-bspc config top_padding         24
+bspc config top_padding         22
 bspc config border_width        1
 bspc config window_gap          1
 
