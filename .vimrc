@@ -54,8 +54,8 @@ Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
 Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
-Plug 'ivalkeen/vim-simpledb'
-Plug 'ap/vim-css-color'
+" Plug 'ivalkeen/vim-simpledb'
+" Plug 'ap/vim-css-color'
 Plug 'valloric/matchtagalways'
 Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 Plug 'captbaritone/better-indent-support-for-php-with-html'
@@ -65,7 +65,7 @@ Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
 Plug 'majutsushi/tagbar'                                " sudo apt install exuberant-ctags
-Plug 'vifm/vifm.vim'
+Plug 'vifm/vifm.vim'                                    " :Vifm
 call plug#end()
 
 let mapleader = "\<Space>"
