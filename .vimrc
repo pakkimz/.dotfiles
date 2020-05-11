@@ -42,7 +42,6 @@ filetype plugin indent on                               " all in one line
 
 call plug#begin('~/.vim/plugged')
 Plug 'dbb/vim-gummybears-colorscheme'
-Plug 'chriskempson/base16-vim'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'yuttie/comfortable-motion.vim'
@@ -65,7 +64,6 @@ Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
 Plug 'majutsushi/tagbar'                                " sudo apt install exuberant-ctags
-Plug 'vifm/vifm.vim'                                    " :Vifm
 call plug#end()
 
 let mapleader = "\<Space>"
@@ -78,17 +76,6 @@ let g:buffergator_viewport_split_policy = "B"
 let g:buffergator_split_size = 10
 
 colorscheme gummybears
-
-nnoremap <silent><leader>0 :colorscheme base16-3024<CR>
-nnoremap <silent><leader>1 :colorscheme base16-synth-midnight-dark<CR>
-nnoremap <silent><leader>2 :colorscheme base16-irblack<CR>
-nnoremap <silent><leader>3 :colorscheme base16-bright<CR>
-nnoremap <silent><leader>4 :colorscheme base16-macintosh<CR>
-nnoremap <silent><leader>5 :colorscheme base16-black-metal-bathory<CR>
-nnoremap <silent><leader>6 :colorscheme base16-one-light<CR>
-nnoremap <silent><leader>7 :colorscheme base16-solarized-light<CR>
-nnoremap <silent><leader>8 :colorscheme base16-gruvbox-light-hard<CR>
-nnoremap <silent><leader>9 :colorscheme base16-github<CR>
 
 " 'g+o' last edited, 'g+i' for last insert
 nnoremap ge `.
@@ -200,3 +187,5 @@ autocmd BufLeave * if !&diff | let b:winview = winsaveview() | endif
 autocmd BufEnter * if exists('b:winview') && !&diff | call winrestview(b:winview) | unlet! b:winview | endif
 " resets the soft tab value to 2 spaces when I open a Python file
 autocmd FileType python set shiftwidth=2
+" bug gummybears colorscheme in the end of buffer
+highlight EndOfBuffer ctermbg=None
