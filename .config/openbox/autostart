@@ -17,8 +17,8 @@
 #xfce-mcs-manager &
 tint2 &
 # nm-applet &
-nitrogen --restore &
-compton -b -c &
+# nitrogen --restore &
+# compton -b -c &
 # xfce4-power-manager &
 #clipit &
 # volumeicon &

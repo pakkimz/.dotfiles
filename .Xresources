@@ -1,7 +1,6 @@
 ! https://github.com/BrodieRobertson/dotfiles/blob/master/.Xresources
 xterm*.foreground:   #d8dee9
 xterm*.background:   #1d1f21
-xterm*.cursorColor:  #d8dee9
 xterm*.color0:       #2d2d2d
 xterm*.color8:       #444444
 xterm*.color1:       #ed0b0b

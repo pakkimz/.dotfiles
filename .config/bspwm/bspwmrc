@@ -2,8 +2,8 @@
 
 bspc rule -r "*"
 sxhkd &
-compton -b -c &
-nitrogen --restore &
+# compton -b -c &
+# nitrogen --restore &
 unclutter &
 # redshift &
 
