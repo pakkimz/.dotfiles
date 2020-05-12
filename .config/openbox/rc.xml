@@ -195,6 +195,7 @@ Copy the file to $HOME/.config/openbox/ instead. -->
     <keybind key="W-2"><action name="GoToDesktop"><to>2</to></action></keybind>
     <keybind key="W-3"><action name="GoToDesktop"><to>3</to></action></keybind>
     <keybind key="W-4"><action name="GoToDesktop"><to>4</to></action></keybind>
+    <keybind key="W-5"><action name="GoToDesktop"><to>5</to></action></keybind>
     <keybind key="W-d"><action name="ToggleShowDesktop"/></keybind>
       <!-- Keybindings for windows -->
     <keybind key="W-w"><action name="Close"/></keybind>
