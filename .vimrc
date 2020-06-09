@@ -20,7 +20,7 @@ set mouse=a
 set ttymouse=xterm2                                     " resize split with mouse
 set wildmenu
 set nostartofline                                       " sometimes cursor jumping back
-set expandtab
+set noexpandtab
 set hlsearch
 set autowrite		                                        " automatically save before commands like :next and :make
 set complete-=i                                         " get rid system include in auto completion
@@ -57,7 +57,7 @@ Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffe
 " Plug 'ap/vim-css-color'
 " Plug 'valloric/matchtagalways'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
-Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
+" Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-function'
