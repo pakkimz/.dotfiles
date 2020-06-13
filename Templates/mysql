@@ -1,2 +1,5 @@
 "remove auto startup"
 sudo systemctl disable mysql
+
+"run mysql"
+sudo mysql -u root -p
