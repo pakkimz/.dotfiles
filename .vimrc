@@ -34,8 +34,6 @@ set directory=~/.vim/tmp/swap//
 set backupdir=~/.vim/tmp/backup//
 set dictionary=/usr/share/dict/words
 set listchars=tab:→\ ,eol:↲                             " unicode for → = u2192, ↲ = u21b2. set list display it
-set laststatus=2
-set statusline="%f%m%r%h%w [%Y] [0x%02.2B]%< %F%=%4v,%4l %3p%% of %L"
 
 syntax on
 syntax sync minlines=256
